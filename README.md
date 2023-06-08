@@ -24,20 +24,20 @@ Date Published
 June 7, 2023
 
 Instructions on How to Use the Program
-Compile the program using a C++ compiler. For example, using g++:
-
-sh
-Copy code
+1. Compile the program using a C++ compiler. For example, using g++:
+```
 g++ -o vigenere_cipher main.cpp
-Run the compiled program:
+```
 
-sh
-Copy code
+2. Run the compiled program:
+```
 ./vigenere_cipher
-Enter the plaintext that you want to encrypt when prompted by the program.
+```
 
-Enter the keyword which will be used for encryption.
+3. Enter the plaintext that you want to encrypt when prompted by the program.
 
-The program will output the ciphertext (the encrypted message) and the decrypted text (which should match your original input).
+4. Enter the keyword which will be used for encryption.
+
+5. The program will output the ciphertext (the encrypted message) and the decrypted text (which should match your original input).
 
 Note: This program only works with uppercase English alphabets and doesn't account for spaces, special characters, or numbers. Additionally, the Vigenère cipher itself is not a secure encryption method by modern standards.
